@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .class1 {
+      max-height:0px;
+      transition:max-height 1s;
+      overflow:hidden;
+    }
+  </style>
+  <script>
+    function show() {
+      document.getElementById('id1').style.maxHeight = "200px";
+    }
+  </script>
+</head>
+<body>
+  <button onclick="show()">Show Images</button>
+  <hr>
+	
+  <div id="id1" class="class1">
+    <img src="häst1.jpeg" alt="">
+    <img src="häst2.jpeg" alt="">
+    <img src="häst3.jpeg" alt="">
+    <img src="häst4.jpeg" alt="">
+  </div>
+	
+  <hr>
+</body>
+</html>
