@@ -1,0 +1,20 @@
+body {
+font-size: 50px;
+
+}
+h1 {
+    background-color: lightcyan;
+    background-size: auto px;
+    text-align: center;
+}
+div {
+    background-color: lightgreen;
+    color: lightgrey;
+    border: 2px solid black;
+    margin: 15px;
+    padding: 15px;
+}
+
+span {
+    color: chocolate;
+}

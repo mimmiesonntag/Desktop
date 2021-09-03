@@ -1,6 +1,12 @@
 body {
   margin: 0;
   font-family:  "Times New Roman", Times, serif;
+  font-family: 'Kaisei HarunoUmi', serif;
+}
+
+header {
+  font-family:  "Times New Roman", Times, serif;
+
 }
 
 .topnav {
@@ -60,6 +66,7 @@ main {
 article p:first-child {
   font-size: 120%;
   font-weight: bold;
+
 }  
 
 aside {
@@ -67,7 +74,7 @@ aside {
   padding-left: 15px;
   margin-left: 15px;
   float: right;
-  font-style: serif;
+  font-family: allison;
   background-color: lightgray;
 }
    
