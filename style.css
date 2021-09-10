@@ -51,16 +51,12 @@ header {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-footer {
-  width: auto;
-  height: 20px;
-  background-color: rgb(240, 200, 227);
-  margin: 8px auto;
-}
+
 main {
+  font-size: 20px;
   width: auto;
-  height: 70px;
-  background-color: lightcoral;
+  height: auto;
+  color: darkgrey;
 }
 
 article p:first-child {
@@ -75,7 +71,19 @@ aside {
   margin-left: 15px;
   float: right;
   font-family: allison;
+  font-size: 130%;
   background-color: lightgray;
+}
+
+.div1 {
+  align-items: center;
+  border-image: auto; 
+}
+footer {
+  width: auto;
+  background-color: rgb(240, 200, 227);
+  margin-top: 200px;
+  position: bottom;
 }
    
   
